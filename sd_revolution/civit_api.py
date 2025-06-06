@@ -11,10 +11,14 @@ import click
 import requests
 
 BASE_URL = "https://civitai.com/api/v1/"
-HEADERS = {
-    "Content-Type": "application/json",
-    "Authorization": f"Bearer {API_KEY}"
-}
+API_KEY = os.getenv("CIVIT_API_KEY")
+if API_KEY:
+    HEADERS = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {API_KEY}"
+    }
+else:
+    HEADERS = {"Content-Type": "application/json"}
 DOWNLOAD_DIR = 'data/models/'
 
 
