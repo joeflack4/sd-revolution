@@ -1,0 +1,21 @@
+{
+  "prompt": "<lora:Big_beard_test:1> , <lora:Alphinaud_FFXIV:1>, Alphinaud, beard, big beard,\nsmirk, raised eyebrow, 20",
+  "negative_prompt": "green duct tape, green tape,\n(bandana), scarf, choker, \n(pants:1.2), (skirt:1.2), (shorts:1.2), \nsource_furry,  source_pony, score_5, score_4, score_3, score_2, score_1, deformed fingers, monochrome, 3d, photo, rough sketch, fewer digits, extra digits, signature, artist name, whip, tools, monster, deformed, large breasts, 2 girls, disembodied hands, disembodied arms, cg, computer graphics, 3d rendered, censored pussy, censored genitals, blurry genitals, camera, video recorder, machine, crying man, large breasts, d-cup breasts, c-cup breasts, b-cup breasts,\n(3D, Photorealistic, Lifelike, Realistic, True to Life, Vivid, Picture-Perfect, Naturalistic, Convincing),(sfw:1), (correction:1), (bar censor:1), (mosaic censor:1), (censored:1), unaestheticXL_b5, negativeXL_D, score_6, score_5, score_4, source_furry, source_pony, source_cartoon,",
+  "parameters": {
+    "Steps": 23,
+    "Sampler": "Euler a",
+    "Schedule type": "Automatic",
+    "CFG scale": 7,
+    "Seed": 3208283879,
+    "Face restoration": "GFPGAN",
+    "Size": "512x768",
+    "Model hash": "ac006fdd7e",
+    "Model": "autismmixSDXL_autismmixConfetti",
+    "Denoising strength": 0.7,
+    "Hires upscale": 2,
+    "Hires upscaler": "Latent",
+    "Lora hashes": "Big_beard_test: ddb6679774ac, Alphinaud_FFXIV: 75a8f04ba4ba",
+    "Version": "v1.9.4"
+  },
+  "raw": "<lora:Big_beard_test:1> , <lora:Alphinaud_FFXIV:1>, Alphinaud, beard, big beard,\nsmirk, raised eyebrow, 20\nNegative prompt: green duct tape, green tape, \n(bandana), scarf, choker, \n(pants:1.2), (skirt:1.2), (shorts:1.2), \nsource_furry,  source_pony, score_5, score_4, score_3, score_2, score_1, deformed fingers, monochrome, 3d, photo, rough sketch, fewer digits, extra digits, signature, artist name, whip, tools, monster, deformed, large breasts, 2 girls, disembodied hands, disembodied arms, cg, computer graphics, 3d rendered, censored pussy, censored genitals, blurry genitals, camera, video recorder, machine, crying man, large breasts, d-cup breasts, c-cup breasts, b-cup breasts,\n(3D, Photorealistic, Lifelike, Realistic, True to Life, Vivid, Picture-Perfect, Naturalistic, Convincing),(sfw:1), (correction:1), (bar censor:1), (mosaic censor:1), (censored:1), unaestheticXL_b5, negativeXL_D, score_6, score_5, score_4, source_furry, source_pony, source_cartoon,\nSteps: 23, Sampler: Euler a, Schedule type: Automatic, CFG scale: 7, Seed: 3208283879, Face restoration: GFPGAN, Size: 512x768, Model hash: ac006fdd7e, Model: autismmixSDXL_autismmixConfetti, Denoising strength: 0.7, Hires upscale: 2, Hires upscaler: Latent, Lora hashes: \"Big_beard_test: ddb6679774ac, Alphinaud_FFXIV: 75a8f04ba4ba\", Version: v1.9.4"
+}
