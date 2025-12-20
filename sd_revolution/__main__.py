@@ -9,7 +9,7 @@ import click
 from .matrixify import matrixify, matrixify_1
 from .image_metadata import extract_metadata
 
-# TODO: add these dirs to each set dir created: 1best, etc
+# TODO: add these dirs to each set dir created: r1, r2, etc
 # TODO: get these via config, calling dir, and/or CLI
 # TODO: auto detect highest num folder
 #  - assuming no folders in there already? at least none starting with integers

@@ -16,15 +16,15 @@ def test_extract_metadata():
 
     # Set up paths
     test_dir = os.path.dirname(__file__)
-    input_file = os.path.join(test_dir, "input", "alphinaud-older-with-beard.png")
-    output_dir = os.path.join(test_dir, "output", "alphinaud-older-with-beard")
+    input_file = os.path.join(test_dir, "input", "metadata-reading", "alphinaud-older-with-beard.png")
+    output_dir = os.path.join(test_dir, "output", "metadata-reading", "alphinaud-older-with-beard")
 
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
 
     # Output files
-    txt_output = os.path.join(output_dir, "metadata.txt")
-    json_output = os.path.join(output_dir, "metadata.json")
+    txt_output = os.path.join(output_dir, "img-metadata.txt")
+    json_output = os.path.join(output_dir, "img-metadata.json")
 
     # Run extract_metadata command
     result = runner.invoke(extract_metadata, [
